@@ -1,0 +1,31 @@
+\documentclass[12pt]{book}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{amsmath, amssymb}
+\usepackage{hyperref}
+\usepackage{geometry}
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib}
+
+\geometry{margin=1in}
+
+\title{My Book Title}
+\author{Your Name}
+\date{\today}
+
+\begin{document}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{chapters/introduction}
+\include{chapters/chapter1}
+\include{chapters/chapter2}
+
+\backmatter
+\include{chapters/appendix}
+\printbibliography
+
+\end{document}
