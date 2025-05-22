@@ -1,0 +1,38 @@
+# Compiled PDF
+*.pdf
+
+# Auxiliary files
+*.aux
+*.log
+*.toc
+*.lof
+*.lot
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.vrb
+*.bbl
+*.blg
+*.run.xml
+*.bcf
+
+# Editor-specific
+*.swp
+*.swo
+*~
+*.bak
+.DS_Store
+Thumbs.db
+
+# latexmk files
+latexmkrc
+
+# VS Code LaTeX extension
+.vscode/
+
+# Build directory
+build/
+output/
